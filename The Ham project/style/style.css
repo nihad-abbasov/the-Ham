@@ -1,0 +1,378 @@
+/* MAIN */
+body {
+  min-width: 1200px;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER PART */
+
+.above-part {
+    width: 100%;
+    height: 80px;
+    background-color:rgba(0, 0, 0, 0.561);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 200px;
+  
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: rgb(228, 228, 228);
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;                                  
+  font-family: 'Montserrat';
+}
+
+
+.nav-items a:hover {
+  color: #18cfab;
+  border-bottom: 1px solid #18cfab;
+  padding-bottom: 31px;
+}
+
+.logos {
+  padding-left: 194.5px ;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* AFTER HEADER */
+
+.section-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 150px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Montserrat';
+}
+
+.first-span {
+  color:#18cfab
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.creative {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  font-weight: bolder;
+  margin-bottom: 18px;
+  margin-top: 5px;
+}
+
+.promotion {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.now-buttons {
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  max-width: 280px;
+  margin-left: 535px;
+  margin-top: 80px;
+}
+
+.child-b {
+  width: 130px;
+  height: 50px;
+  background-color: rgb(24, 207, 171);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  border-top: 3px solid white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5px;
+  font-family: 'Montserrat';
+}
+
+/* FOUR SQUARES */
+
+.four-squares {
+  /* margin-top: 150px; */
+  display: flex;
+  width: 100%;
+  height: 250px;
+  font-family: 'Montserrat'; 
+  font-weight: bold;
+}
+.square{
+  width: calc(100% / 4);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.square:nth-child(odd) {
+  background-color: #1c2a33;
+  border-top: 4px solid #18cfab;
+  color: #18cfab;
+}
+
+.square:nth-child(even) {
+  background-color:#18cfab;
+  border-top: 4px solid #ffffff;
+  color: #ffffff;
+}
+
+.square:nth-child(even) img {
+    width: 80px;
+}
+
+.square:nth-child(odd) img {
+  width:40px;
+}
+.sq-cont{
+  text-align: center;
+}
+ .sq-cont span{
+  display: block;
+}
+
+/* TABS PART */
+
+.services {
+  color: #4e4e4e;
+  font-family: "Montserrat";
+  font-size: 26px;
+  margin-bottom: 30px;
+  margin-left: 337px;
+  position: relative;
+}
+
+.services::before {
+  background-color: #18cfab;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 55px;
+  top: 50px;
+  left: 45px;
+}
+
+.services::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 55px;
+  top: 54px;
+  left: 57px;
+  background-color: #18cfab;
+}
+
+.tab-serv {
+  margin-top: 50px;
+  margin-left: 270px;
+  background-color: white;
+}
+
+.parent-tab {
+  display: flex; 
+  list-style: none;
+  justify-content: space-between;
+  max-width: 500px;
+  margin-top: 70px;
+  margin-left: -115px;
+  width: 100%;
+
+}
+
+.parent-tab li {
+  border: 2px solid #ebebeb;
+  padding: 5px 40px;
+  display: flex;
+  text-align: center;
+  white-space: nowrap;
+  height: 60px;
+  align-items: center;
+  font-family: "Montserrat";
+  color: #717171;
+  background-color: #f8fcfe;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all .5s ease;
+
+}
+
+.row {
+  display:  flex;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+
+.contents {
+  padding-top: 50px;
+  padding-left: 65px;
+  justify-content: space-around;
+  transition: all 1s ease;
+
+}
+
+
+.contents img {
+  margin-right: 35px;
+  transition: all 1s ease;
+}
+.contents p {
+padding-right: 150px;
+text-align: justify;
+transition: all 1s ease;
+
+
+}
+
+.active {
+  background-color: #18cfab !important;
+  color: white !important;
+}
+
+
+
+
+
+
+
+/* ALONE PURCHASE BUTTON PART */
+
+
+
+.second-purchase-part {
+  margin-top: 80px;
+  height: 100%;
+  text-align: center;
+  padding-top: 60px;
+  background-color: rgb(0, 0, 0,0.5);
+  
+}
+
+.second-purchase-part h1,p,button {
+  margin-bottom: 20px;
+    
+}
+
+.second-purchase-part p {
+  font-size: 15px;
+}
+
+.second-main{
+  background-image: url(../imgs/section-2-after.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px; 
+}
+
+
+.second-purchase-header {
+      font-size: 30px;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: #18cfab !important ;
+      font-family: "Montserrat Bold";
+}
+
+
+.alone-purchase-btn {
+      background-color: #18cfab;
+      color: white;
+      border-top: 3px solid white;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-family: "Montserrat";
+      padding: 12px 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-top: 40px;     
+}
+
+
+
+.default-twelve {
+    margin: 80px 0;
+    padding: 0;
+    margin-left: 100px;
+   
+}
+
+
+
+.img-class {
+  padding: 0;
+  width:280px;
+  margin: 0;
+  height: 204px;
+}
+
+
+
+
+/* FOOTER PART */
+
+.footer-bc {
+    background-color: #22353f;
+}
+
+.footer-items {
+    height: 60px;
+    margin-top: 100px;
+    color: #aeaeae;
+    font-family: "Montserrat";
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-left: 38%;
+    
+}
+
+.footer-bc a {
+  color: #18cfab; 
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+.footer-bc span {
+  border-left: 1px solid #aeaeae;
+  border-bottom: 10px;
+  padding: -10px 2px;
+  margin-left: 4px;
+  padding-left: 3px;
+  line-height: 11px;
+}
+
